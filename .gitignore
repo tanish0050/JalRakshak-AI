@@ -1,0 +1,22 @@
+# Python environments and caches
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+
+# Runtime-generated files
+data/jalrakshak.db
+data/uploads/
+models/*.pkl
+models/metrics.json
+models/feature_importance.csv
+
+# Keep folders in Git
+!data/.gitkeep
+!models/.gitkeep
+
+data/*.csv
+!data/.gitkeep
